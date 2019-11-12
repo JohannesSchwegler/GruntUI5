@@ -1,0 +1,19 @@
+{
+  "name": "catalogzf",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@sap/grunt-sapui5-bestpractice-build": "^1.3.62",
+    "grunt": "^1.0.4"
+  },
+  "dependencies": {
+    "grunt-cli": "^1.3.2"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
