@@ -25,7 +25,12 @@ pipeline {
         bat 'npm install grunt --save-dev'
       }
     }     
-    
+     stage('Run Grunt') {
+      steps {
+        bat 'Grunt'
+     
+      }
+    }  
     
   }
 }
