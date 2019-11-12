@@ -24,17 +24,10 @@ pipeline {
       }
     }     
     
-    
-     stage('Install NPM') {
-      steps {
-        bat 'npm install'
-      
-      
-      }
-    }  
+   
        stage('Run grunt') {
       steps {
-        bat 'where grunt'
+        bat 'grunt'
       }
     }     
     
