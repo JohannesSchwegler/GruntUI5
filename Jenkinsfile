@@ -12,7 +12,7 @@ pipeline {
      
        stage('Run grunt') {
       steps {
-        bat 'grunt.cmd'
+        bat 'grunt'
       }
     }     
   }
