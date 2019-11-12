@@ -27,7 +27,7 @@ pipeline {
     }     
      stage('Run Grunt') {
       steps {
-        bat 'Grunt'
+        bat 'grunt'
      
       }
     }  
