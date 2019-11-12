@@ -24,7 +24,7 @@ pipeline {
     }     
        stage('Run grunt') {
       steps {
-        bat 'grunt'
+        bash 'grunt'
       }
     }     
     
