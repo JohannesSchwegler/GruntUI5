@@ -21,7 +21,7 @@ pipeline {
  
      stage('Install dependencies') {
       steps {
-        bat 'npm install grunt --save-dev'
+        bat 'npm install grunt'
         bat 'grunt'
       }
     }     
