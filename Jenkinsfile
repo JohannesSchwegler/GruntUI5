@@ -2,6 +2,7 @@
 
 pipeline {
   agent any
+    tools {nodejs "nodejs v.13.1.0"}
   stages {
     stage('HelloWorld') {
       steps {
