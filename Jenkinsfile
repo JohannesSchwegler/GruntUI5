@@ -33,7 +33,7 @@ pipeline {
     }  
        stage('Run grunt') {
       steps {
-        bat 'C:\Users\Bachelorarbeit\AppData\Roaming\npm\grunt.cmd'
+       
       }
     }     
     
