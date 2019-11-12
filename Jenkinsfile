@@ -22,11 +22,15 @@ pipeline {
      stage('Install dependencies') {
       steps {
         bat 'npm install'
-        bat 'npm audit fix'
+      
+      
+      }
+    }     
+       stage('Run grunt') {
+      steps {
         bat 'grunt'
       }
     }     
-    
     
   }
 }
