@@ -10,7 +10,7 @@ pipeline {
     stage('NPM install'){
       steps{
       
-     bat'npm install -g grunt'
+
 
        bat'npm install grunt'
 
