@@ -22,9 +22,18 @@ pipeline {
       
       }
     }     
+    
+    
+     stage('Install NPM') {
+      steps {
+        bat 'npm install'
+      
+      
+      }
+    }  
        stage('Run grunt') {
       steps {
-        bash 'grunt'
+        bat 'C:\Users\Bachelorarbeit\AppData\Roaming\npm\grunt.cmd'
       }
     }     
     
