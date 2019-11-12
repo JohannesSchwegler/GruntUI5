@@ -10,6 +10,7 @@ pipeline {
      stage('Install Grunt') {
       steps {
         bat 'npm install -g grunt-cli'
+        bat 'grunt'
       }
     }     
   
