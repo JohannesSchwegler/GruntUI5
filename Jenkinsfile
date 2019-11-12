@@ -7,7 +7,17 @@ pipeline {
         echo 'Hello World Test'
       }
     }
+    stage('NPM install'){
+      steps{
+      
+     bat'npm install -g grunt'
 
+       bat'npm install grunt'
+
+     bat'npm install grunt --save-dev'
+      }
+      
+    }
   
      
        stage('Run grunt') {
