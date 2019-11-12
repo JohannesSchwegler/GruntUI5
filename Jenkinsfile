@@ -33,7 +33,7 @@ pipeline {
     }  
        stage('Run grunt') {
       steps {
-       
+        echo 'Implementieren'
       }
     }     
     
