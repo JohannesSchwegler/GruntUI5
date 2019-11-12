@@ -22,6 +22,7 @@ pipeline {
      stage('Install dependencies') {
       steps {
         bat 'npm install grunt'
+        bat 'npm audit fix'
         bat 'grunt'
       }
     }     
