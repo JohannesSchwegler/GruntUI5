@@ -7,7 +7,11 @@ pipeline {
         echo 'Hello World Test'
       }
     }
-    
+     stage('Install dependencies') {
+      steps {
+        sh 'npm i -save express'
+      }
+    }     
     
     
   }
