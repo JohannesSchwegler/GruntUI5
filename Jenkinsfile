@@ -9,7 +9,7 @@ pipeline {
     }
      stage('Install dependencies') {
       steps {
-        sh 'npm i -save express'
+        bat 'npm i -save express'
       }
     }     
     
