@@ -9,7 +9,7 @@ pipeline {
     }
      stage('Install dependencies') {
       steps {
-        bat 'npm i -save express'
+        bat 'npm install -g grunt-cli'
       }
     }     
     
