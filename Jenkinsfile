@@ -12,7 +12,7 @@ pipeline {
         bat 'npm install -g grunt-cli'
       }
     }     
-       stage('Install dependencies') {
+       stage('Install SAP') {
       steps {
         bat '@sap:registry=https://npm.sap.com/'
       }
